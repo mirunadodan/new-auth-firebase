@@ -1,0 +1,30 @@
+#header {
+    overflow: hidden;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.854954481792717) 100%);
+    padding: 40px;
+  }
+  #header-left {
+    float: left;
+    display: inline-flex;
+  }
+#header-right {
+    float: right;
+    display: inline-flex;
+  }
+#logo {
+    width: 50px;
+    height: auto;
+}
+#cart {
+    width: 50px;
+    height: auto;
+}
+#a {
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    border-radius: 4px;
+  }
