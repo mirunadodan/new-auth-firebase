@@ -4,7 +4,7 @@ import { auth } from '../firebase';
 import { useAuthState } from "react-firebase-hooks/auth";
 import Logo from '../assets/logo.png';
 import Cart from '../assets/cart.png'
-import './Header.css';
+import './Navbar.css';
 
 const Navbar = () => {
   const { user, logOut } = useAuthState(auth);
@@ -28,8 +28,6 @@ const Navbar = () => {
       </div>
 
       <div id='header-right'>
-        {/* ATENTIE! Daca avem informatii despre user, atunci ii vom afisa un mesaj.
-         Daca userul nu este logat, se va primi null ca valoare, deci nu com afisa nimic.*/}
           { user
               ? <p id='a'>Salut, {user.displayName}!</p>
                   : null
