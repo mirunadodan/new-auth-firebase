@@ -12,8 +12,8 @@ function ProductList(props) {
                 ? products.map((product) => {
                     return (
                         <ProductItem
-                        key={product.id}
-                        name={product.name}
+                        id={product.id}
+                        title={product.title}
                         image={product.image}
                         price={product.price}
                         currency={product.currency}

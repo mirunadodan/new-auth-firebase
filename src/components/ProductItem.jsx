@@ -1,18 +1,42 @@
-import React from 'react';
-import './ProductItem.css';
+import { useDispatch } from 'react-redux';
+import {addToCart} from '../redux/cartSlice';
+import {addToFavorites} from '../redux/favoritesSlice';
 
-function ProductItem(props) {
-    // extragem props-urile de interes
-    const {name, price, currency, image} = props;
+function Item({id, title, image, price, currency}) {
 
-    return(
-        // Momentan, preview-ul produsului contine imagine, nume si pret
-        <div className="product-item col-4 d-flex flex-column align-items-center">
-            <img src={image} alt="productPhoto" className="mb-2"/>
-            <p className="mb-1 text-center">{ name }</p>
-            <p className="text-center">{ price + currency }</p>
-        </div>
-    );
+  const dispatch = useDispatch();
+
+  return (
+    <div className="item">
+      <div className="item__info">
+      <img
+        src={image}
+        alt="item"
+      />
+        <p className="item__title">{title}</p>
+        <p className="item__price">
+          <strong>{price} {currency}</strong>
+        </p>
+      </div>
+      <button 
+        onClick={() => 
+          dispatch(addToCart({
+            id, title, image, price, currency
+          }))
+        }>Add to Cart
+      </button>
+      <div>
+      <button 
+        onClick={() => 
+          dispatch(addToFavorites({
+            id, title, image, price, currency
+          }))
+        }>
+          Add to Favorites
+      </button>
+      </div>
+    </div>
+  )
 }
 
-export default ProductItem;
+export default Item

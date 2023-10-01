@@ -8,6 +8,8 @@ import Dashboard from './components/Dashboard';
 import Register from './components/Register';
 import Reset from './components/Reset';
 import Navbar from './components/Navbar';
+import Cart from './pages/Cart';
+import Favorites from './pages/Favorites';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/cart' element={<Cart />} />
+          <Route path='/favorites' element={<Favorites />} />
           <Route exact path="/register" element={<Register />} />
           <Route exact path="/reset" element={<Reset />} />
           <Route exact path="/dashboard" element={<Dashboard />} />

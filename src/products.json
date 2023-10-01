@@ -3,7 +3,7 @@
         "items": [
             {
                 "id": 1,
-                "name": "Sneakerși piele Massimo Dutti",
+                "title": "Sneakerși piele Massimo Dutti",
                 "price": 135,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/Rz8lVQa.jpg",
@@ -15,7 +15,7 @@
             },
             {
                 "id": 2,
-                "name": "Teniși negri Polo Ralph Lauren",
+                "title": "Teniși negri Polo Ralph Lauren",
                 "price": 100,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/Og3Oh24.jpg",
@@ -27,7 +27,7 @@
             },
             {
                 "id": 3,
-                "name": "Ghete din piele maro Massimo",
+                "title": "Ghete din piele maro Massimo",
                 "price": 185,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/zoqSu87.jpg",
