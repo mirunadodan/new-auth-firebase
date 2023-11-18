@@ -1,0 +1,19 @@
+/* dam o dimensiune maxima imaginii */
+.product-item img {
+    max-width: 250px;
+    max-height: 250px;
+}
+.button {
+    background-color: white; /* Green */
+    border: black;
+    border-style: inherit;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+  }
+.img {
+    max-width: 50px;
+    max-height: 50px;
+}

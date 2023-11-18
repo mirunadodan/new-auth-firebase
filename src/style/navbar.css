@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2rem;
+}
+
+.header__nav {
+  display: flex;
+  gap: 1rem;
+  flex:1;
+}
+.header__link {
+  transition: transform 0.3s ease;
+}
+
+.header__link:hover {
+  border-bottom: 2px solid #ad0043;
+  transform: translateY(-5px);
+}
+
+.header__logo {
+  display: flex;
+  flex:1;
+  justify-content: center;
+}
+
+.header__logo__img {
+  width: 200px;
+}
+
+.header__cart, .header__favs {
+  width: 50px;
+}
+
+
+.header__account {
+  display: flex;
+  gap:1rem;
+  justify-content: flex-end;
+  align-items:baseline;
+  flex:1;
+}
+
+.header__account__img {
+  width: 30px;
+  height: 30px;
+}
+
+.header__account__link {
+  display: flex;
+  gap: 0.5rem;
+  font-weight: 500;
+}

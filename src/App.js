@@ -8,8 +8,9 @@ import Dashboard from './components/Dashboard';
 import Register from './components/Register';
 import Reset from './components/Reset';
 import Navbar from './components/Navbar';
-import Cart from './pages/Cart';
-import Favorites from './pages/Favorites';
+import Footer from './components/Footer';
+import Cart from './components/Cart/Cart';
+import Favorites from './components/Favorites/Favorites';
 
 function App() {
   return (
@@ -24,8 +25,12 @@ function App() {
           <Route exact path="/reset" element={<Reset />} />
           <Route exact path="/dashboard" element={<Dashboard />} />
           <Route path='/category/:categoryName' element={<Category />}/>
+          <Route path='/women' element={<Category />}/>
+          <Route path='/men' element={<Category />}/>
+          <Route path='/kids' element={<Category />}/>
           <Route path='*' element={<Page404 />} />
         </Routes>
+        <Footer />
     </div>
   );
 }

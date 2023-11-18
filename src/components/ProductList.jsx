@@ -13,7 +13,8 @@ function ProductList(props) {
                     return (
                         <ProductItem
                         id={product.id}
-                        title={product.title}
+                        key={product.id}
+                        name={product.name}
                         image={product.image}
                         price={product.price}
                         currency={product.currency}

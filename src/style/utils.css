@@ -1,0 +1,14 @@
+.link {
+ text-decoration: none;
+ color: black;
+ font-weight:500;
+ font-size:1.2rem;
+}
+.link:hover {
+    color:#ad0043;
+}
+.btn {
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+}

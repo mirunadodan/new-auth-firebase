@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { auth, logInWithEmailAndPassword, signInWithGoogle } from "../firebase";
+import { auth, logInWithEmailAndPassword } from "../apis/firebase";
+import { signInWithGoogle } from "../apis/firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import "./Login.css";
 
@@ -11,7 +12,7 @@ function Login() {
   const navigate = useNavigate();
   useEffect(() => {
     if (user != null) {
-      navigate('/dashboard');
+      navigate('/');
     }
   }, [user]);
   return (

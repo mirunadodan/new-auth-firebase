@@ -3,7 +3,7 @@
         "items": [
             {
                 "id": 1,
-                "title": "Sneakerși piele Massimo Dutti",
+                "name": "Sneakerși piele Massimo Dutti",
                 "price": 135,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/Rz8lVQa.jpg",
@@ -15,7 +15,7 @@
             },
             {
                 "id": 2,
-                "title": "Teniși negri Polo Ralph Lauren",
+                "name": "Teniși negri Polo Ralph Lauren",
                 "price": 100,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/Og3Oh24.jpg",
@@ -27,7 +27,7 @@
             },
             {
                 "id": 3,
-                "title": "Ghete din piele maro Massimo",
+                "name": "Ghete din piele maro Massimo",
                 "price": 185,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/zoqSu87.jpg",
@@ -38,9 +38,9 @@
                 "description": "Ghete maro din piele, din colecția de toamnă-iarnă 2017, Massimo Dutti."
             }
         ],
-        "image": "https://i.imgur.com/X0qldXO.jpg",
-        "name": "Încălțăminte",
-        "description": "Ghete, pantofi, sneakerși: finețe garantată!"
+        "image": "https://images.pexels.com/photos/4429559/pexels-photo-4429559.jpeg",
+        "name": "Shoes",
+        "description": "Find the perfect pair"
     },
     "sweaters": {
         "items": [
@@ -93,9 +93,9 @@
                 "description": "Pulovăr din lână cu model, colecția toamnă-iarnă 2019, Massimo Dutti."
             }
         ],
-        "image": "https://i.imgur.com/SZU7liE.jpg",
-        "name": "Pulovere",
-        "description": "Pulovărașe elegănțele, slim, clasă superioară."
+        "image": "https://images.pexels.com/photos/9594667/pexels-photo-9594667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Sweaters",
+        "description": "Cozy up for winter"
     },
     "pants": {
         "items": [
@@ -124,9 +124,9 @@
                 "description": "Blugi negri, slim fit, colecția toamnă-iarnă 2019, DS Damat."
             }
         ],
-        "image": "https://i.imgur.com/srQCDRN.jpg",
-        "name": "Pantaloni/blugi",
-        "description": "Jeanși și pantaloni pentru baieții care și-o ard patroni!"
+        "image": "https://images.pexels.com/photos/1082526/pexels-photo-1082526.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Pants",
+        "description": "Smart, Casual and in-between"
     },
     "jackets": {
         "items": [
@@ -229,7 +229,7 @@
                 "description": "Mănuși din piele, cu model, din colecția toamnă-iarnă 2018, DS Damat."
             }
         ],
-        "image": "https://i.imgur.com/qw3wDj8.jpg",
+        "image": "https://images.pexels.com/photos/904350/pexels-photo-904350.jpeg?auto=compress&cs=tinysrgb&w=600",
         "name": "Accesorii",
         "description": "Fulare, căciuli, mănuși: nu mai sta pe gânduri, cumpără-le acuși!"
     }
