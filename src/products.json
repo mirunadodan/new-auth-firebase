@@ -124,7 +124,7 @@
                 "description": "Blugi negri, slim fit, colecția toamnă-iarnă 2019, DS Damat."
             }
         ],
-        "image": "https://images.pexels.com/photos/1082526/pexels-photo-1082526.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "image": "https://images.pexels.com/photos/7679454/pexels-photo-7679454.jpeg?auto=compress&cs=tinysrgb&w=600",
         "name": "Pants",
         "description": "Smart, Casual and in-between"
     },
@@ -156,8 +156,8 @@
             }
         ],
         "image": "https://i.imgur.com/81I6Oab.jpg",
-        "name": "Geci/Haine",
-        "description": "Confortabile, călduroase și nu arăți ca un cartof!"
+        "name": "Outerwear",
+        "description": "Coats, puffers and blazers"
     },
     "tshirts": {
         "items": [
@@ -198,9 +198,9 @@
                 "description": "Tricoul purtat de Borussia Dortmund în sezonul competițional 2018-2019, cu numarul 7 și numele 'SANCHO'. Tricoul este semnat de portarul Borussiei, Roman Burki."
             }
         ],
-        "image": "https://i.imgur.com/l27WtFL.jpg",
-        "name": "Tricouri",
-        "description": "Și de băiețeală și de sport."
+        "image": "https://images.pexels.com/photos/6347892/pexels-photo-6347892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Shirts",
+        "description": "For all occasions"
     },
     "accesories": {
         "items": [
@@ -229,8 +229,8 @@
                 "description": "Mănuși din piele, cu model, din colecția toamnă-iarnă 2018, DS Damat."
             }
         ],
-        "image": "https://images.pexels.com/photos/904350/pexels-photo-904350.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "name": "Accesorii",
-        "description": "Fulare, căciuli, mănuși: nu mai sta pe gânduri, cumpără-le acuși!"
+        "image": "https://images.pexels.com/photos/9595073/pexels-photo-9595073.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "name": "Accessories",
+        "description": "Hats, scarves and everything nice"
     }
 }

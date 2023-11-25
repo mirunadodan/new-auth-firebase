@@ -31,7 +31,7 @@ function App() {
           <Route path='*' element={<Page404 />} />
         </Routes>
         <Footer />
-    </div>
+    </div> 
   );
 }
 

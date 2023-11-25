@@ -17,19 +17,7 @@
     letter-spacing: 0.1em;
 }
 .home__header__btn {
-    border: 2px solid black;
-    border-radius: 20px;
-    padding: 0.5rem 2rem;
     font-size: 1.2rem;
-    font-weight: 500;
-    color:#ad0043;
-    letter-spacing: 0.1em;
-    transition: all 0.3s ease;
-}
-.home__header__btn:hover {
-    background-color: black;
-    color: white;
-    transform: translateY(-5px);
 }
 
 .home__band {
@@ -38,25 +26,39 @@
     align-items: center;
     background-color: black;
     color: white;
-    border: 3px solid #ad0043;
     padding:0.5rem 0;
     height: 50px;
     letter-spacing: 0.1em;
+    font-size: 0.8rem;
     
 }
 
-.home__text {
+.home__band__text {
     /* flex:1; */
     margin:0;
     padding:0;
 }
 
+.home__shopby__title, .home__favs__title  {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+.home__shopby__subtitle, .home__favs__subtitle {
+    color: black;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+}
+
 .home__categories {
     display:grid;
-    width: 80%;
-    margin: 2rem 10rem;
-    gap: 1rem 1rem;
-    grid-template-rows: repeat(4, 200px);
+    width: 100%;
+    margin-top: 1.5rem;
+    gap: 1.5rem 1rem;
+    grid-template-rows: repeat(3, 200px);
     grid-template-columns: repeat(2, 1fr);
 }
 .home__category__item {
@@ -82,3 +84,4 @@
 .home__category__item:hover .home__category__overlay {
     opacity: 1;
   }
+
