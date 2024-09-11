@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/Clothes_Unlimited_logo.png';
-import '../style/footer.css';
+import '../style/Footer.css';
 import payment_methods from '../assets/payment_methods.png';
 import linkedin from '../assets/linkedin.png';
 import facebook from '../assets/facebook.png';
